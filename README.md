@@ -15,14 +15,15 @@ https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Ejercicio1
 ### Ejercicio 2: Operaciones con Vectores
 * **Hito alcanzado:** Implementación de un script asociado a una esfera que calcula y muestra en consola la magnitud, el ángulo, la distancia y la diferencia de altura entre dos vectores `Vector3` públicos configurables desde el Inspector.
 * **Prueba de ejecución:**
-    
+https://github.com/HectorMesonero16/Interfaces-Inteligentes/edit/main/README.md#:~:text=Ejercicio2.gif
 
 ### Ejercicio 3: Posición del Componente Transform
 * **Hito alcanzado:** Lectura y muestra en consola de la posición actual de la esfera accediendo a la propiedad `position` del componente `Transform`.
 * **Prueba de ejecución:**
+https://github.com/HectorMesonero16/Interfaces-Inteligentes/edit/main/README.md#:~:text=Ejercicio3.gif
     
 
 ### Ejercicio 4: Cálculo de distancias mediante Tags
 * **Hito alcanzado:** Creación de un script que localiza un cubo y un cilindro en la escena mediante el uso de etiquetas (`GameObject.FindWithTag`) y calcula de forma dinámica la distancia desde la esfera hacia ambos objetos.
 * **Prueba de ejecución:**
-    
+https://github.com/HectorMesonero16/Interfaces-Inteligentes/edit/main/README.md#:~:text=Ejercicio4.gif
