@@ -21,6 +21,12 @@ Este repositorio contiene los scripts requeridos para los distintos ejercicios d
 
 **Ejercicio 8: Movimiento continuo con Translate**
 *   **Hito alcanzado:** Creación de un script que traslada un cubo proporcionalmente a un vector `moveDirection` y una variable `speed` desde el inspector. Se analizaron los resultados al modificar coordenadas, velocidad, altura y al intercambiar los sistemas de referencia local y mundial.
+*   a)	Duplicar las coordenadas de la dirección del movimiento: El cubo se mueve el doble de rápido en ese eje.
+b)	Duplicar la velocidad manteniendo la dirección del movimiento: El cubo se mueve el doble de rápido.
+c)	Velocidad es menor que 1: En el caso en el que la velocidad está entre 0 y 1, se moverá más lento. Cuando la velocidad es menor que 0 se moverá en la dirección contraria (si antes se movía a la derecha ahora se moverá a la izquierda).
+d)	La posición del cubo está en y > 0: el cubo mantendrá su altura inicial constante y se desplazará flotando por el aire.
+e)	Intercambiar movimiento relativo al sistema de referencia local y el mundial: El sistema local toma en cuenta la rotación del propio objeto para determinar hacia dónde avanzar. El sistema mundial ignora la rotación del objeto y lo desplaza guiándose únicamente por los ejes fijos y globales de la escena.
+
 *   **Prueba de ejecución:** (https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Sesion2/gifs/Ejercicio8.gif)
 
 **Ejercicio 9: Control múltiple de entidades**
