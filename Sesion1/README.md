@@ -10,7 +10,7 @@ Este repositorio contiene los scripts requeridos para los ejercicios del 1 al 4 
 ### Ejercicio 1: Cambio de color aleatorio
 * **Hito alcanzado:** Creación de un script que inicializa un vector de color y modifica una de sus posiciones de forma aleatoria cada 120 frames. La variable de espera se ha parametrizado para poder modificarse desde el Inspector.
 * **Prueba de ejecución:**
-https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Ejercicio1.gif 
+[https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Ejercicio1.gif ](https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Sesion1/Ejercicio1.gif)
 
 ### Ejercicio 2: Operaciones con Vectores
 * **Hito alcanzado:** Implementación de un script asociado a una esfera que calcula y muestra en consola la magnitud, el ángulo, la distancia y la diferencia de altura entre dos vectores `Vector3` públicos configurables desde el Inspector.
