@@ -21,7 +21,7 @@ Este repositorio contiene los scripts requeridos para los distintos ejercicios d
 
 **Ejercicio 8: Movimiento continuo con Translate**
 *   **Hito alcanzado:** Creación de un script que traslada un cubo proporcionalmente a un vector `moveDirection` y una variable `speed` desde el inspector. Se analizaron los resultados al modificar coordenadas, velocidad, altura y al intercambiar los sistemas de referencia local y mundial.
-*   a)	Duplicar las coordenadas de la dirección del movimiento: El cubo se mueve el doble de rápido en ese eje.
+a)	Duplicar las coordenadas de la dirección del movimiento: El cubo se mueve el doble de rápido en ese eje.
 
 b)	Duplicar la velocidad manteniendo la dirección del movimiento: El cubo se mueve el doble de rápido.
 
