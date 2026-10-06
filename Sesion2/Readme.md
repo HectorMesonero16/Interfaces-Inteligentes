@@ -9,11 +9,11 @@ Este repositorio contiene los scripts requeridos para los distintos ejercicios d
 
 **Ejercicio 5: Desplazamiento mediante marcador**
 *   **Hito alcanzado:** Configuración de tres objetos con una variable pública `Vector3` de desplazamiento. Creación de un script que reubica los objetos en dichas posiciones relativas al pulsar la barra espaciadora, detectada mediante `Input.GetAxis()`.
-*   **Prueba de ejecución:** https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Ejercicio5_P2.gif
+*   **Prueba de ejecución:** Sesion2/gifs/Ejercicio5.gif
 
 **Ejercicio 6: Lectura de ejes direccionales y consola**
 *   **Hito alcanzado:** Agregada una variable pública de velocidad a un cubo. Muestra por consola el resultado de multiplicar la velocidad por los ejes vertical y horizontal al pulsar las flechas, indicando la tecla específica accionada.
-*   **Prueba de ejecución:** https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Ejercicio6_P2.gif
+*   **Prueba de ejecución:** Sesion2/gifs/Ejercicio6.gif
 
 **Ejercicio 7: Mapeo de teclas personalizado**
 *   **Hito alcanzado:** Modificación del *Input Manager* de Unity (Old Input System) para redefinir el mapeo por defecto de los controladores, asignando la tecla `H` a la función de disparo ("Fire").
