@@ -5,7 +5,8 @@ Repositorio dedicado a los desarrollos, mecánicas de interacción y prácticas 
 ## Descripción general
 Este repositorio contiene los distintos proyectos y prácticas de la asignatura.
 
-## Autor: Héctor Mesonero Santos
-## DNI: 70963915Z
-## alu0101939124@ull.edu.es
-## Grupo de prácticas: PE102
+## Información personal
+Autor: Héctor Mesonero Santos
+DNI: 70963915Z
+alu0101939124@ull.edu.es
+Grupo de prácticas: PE102
