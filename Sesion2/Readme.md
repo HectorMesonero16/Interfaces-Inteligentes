@@ -9,15 +9,15 @@ Este repositorio contiene los scripts requeridos para los distintos ejercicios d
 
 **Ejercicio 5: Desplazamiento mediante marcador**
 *   **Hito alcanzado:** Configuración de tres objetos con una variable pública `Vector3` de desplazamiento. Creación de un script que reubica los objetos en dichas posiciones relativas al pulsar la barra espaciadora, detectada mediante `Input.GetAxis()`.
-*   **Prueba de ejecución:** Sesion2/gifs/Ejercicio5.gif
+*   **Prueba de ejecución:** [Sesion2/gifs/Ejercicio5.gif](https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Sesion2/gifs/Ejercicio5.gif)
 
 **Ejercicio 6: Lectura de ejes direccionales y consola**
 *   **Hito alcanzado:** Agregada una variable pública de velocidad a un cubo. Muestra por consola el resultado de multiplicar la velocidad por los ejes vertical y horizontal al pulsar las flechas, indicando la tecla específica accionada.
-*   **Prueba de ejecución:** Sesion2/gifs/Ejercicio6.gif
+*   **Prueba de ejecución:** [Sesion2/gifs/Ejercicio6.gif](https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Sesion2/gifs/Ejercicio6.gif)
 
 **Ejercicio 7: Mapeo de teclas personalizado**
 *   **Hito alcanzado:** Modificación del *Input Manager* de Unity (Old Input System) para redefinir el mapeo por defecto de los controladores, asignando la tecla `H` a la función de disparo ("Fire").
-*   **Prueba de ejecución:** https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Ejercicio7_P2.gif
+*   **Prueba de ejecución:** (https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Sesion2/gifs/Ejercicio7.png)
 
 **Ejercicio 8: Movimiento continuo con Translate**
 *   **Hito alcanzado:** Creación de un script que traslada un cubo proporcionalmente a un vector `moveDirection` y una variable `speed` desde el inspector. Se analizaron los resultados al modificar coordenadas, velocidad, altura y al intercambiar los sistemas de referencia local y mundial.
