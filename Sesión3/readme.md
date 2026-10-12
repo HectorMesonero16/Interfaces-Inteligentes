@@ -3,9 +3,38 @@
 **Autor:** Héctor Mesonero Santos
 
 ## Descripción
-Este repositorio contiene los scripts y configuraciones desarrollados para los ejercicios de la sesión centrados en el motor de físicas de Unity. Se abarca el control directo de personajes mediante componentes `Rigidbody`, la detección de colisiones y disparadores (*Triggers*), la gestión de interacciones con la matriz de colisiones por capas (*Layer Collision Matrix*), el uso de materiales físicos (*Physics Materials*) y el movimiento de objetos sin física mediante vectores.
+Este repositorio contiene los scripts y configuraciones desarrollados para los ejercicios de la sesión centrados en el motor de físicas de Unity, además de las distintas situaciones en las que se experimentó con diferentes configuraciones de los componentes `Rigidbody` y `Collider`. Se abarca el control directo de personajes mediante componentes `Rigidbody`, la detección de colisiones y disparadores (*Triggers*), la gestión de interacciones con la matriz de colisiones por capas (*Layer Collision Matrix*), el uso de materiales físicos (*Physics Materials*) y el movimiento de objetos sin física mediante vectores.
 
 ---
+
+## Situaciones
+
+### Situación 1.
+El cubo caerá por efecto de la gravedad hasta chocar con el plano, mientras que la esfera se mantendrá suspendida de forma estática en el aire al carecer de un componente que le aplique físicas.
+
+### Situación 2. 
+El cubo y la esfera caerán por la gravedad; la esfera colisionará contra el cubo o el plano reaccionando con un rebote físico, mientras que el plano seguirá fijo sosteniendo el conjunto
+
+### Situación 3.
+El cubo caerá con normalidad, pero la esfera, al tener activada la opción cinemática, ignorará la gravedad y las fuerzas externas, flotando en el aire como un objeto inamovible.
+
+### Situación 4.
+Al tener un Rigidbody estándar, el motor de Unity aplicará gravedad al plano, provocando que los tres objetos caigan infinitamente hacia el vacío.
+
+### Situación 5.
+Todos los objetos volverán a caer al vacío. Como no hay fricción de aire configurada, la masa no altera la aceleración, por lo que caerán a la misma velocidad; la masa adicional solo haría que la esfera empuje al cubo con mucha más fuerza si logran chocar en el aire.
+
+### Situación 6.
+El comportamiento principal es idéntico a la situación anterior, cayendo todos al simultáneamente hacia el vacío. La enorme diferencia de masa causaría que, de producirse un choque en pleno aire, la esfera desplazara al cubo transfiriendo una gran energía cinética sin apenas frenarse.
+
+### Situación 7.
+Los tres objetos seguirán cayendo hacia el vacío. Si la esfera llegara a rozar con el cubo durante la caída, el material físico de fricción generará resistencia al deslizamiento, forzando a la esfera a rotar o frenarse contra la superficie en lugar de resbalar.
+
+### Situación 8.
+El plano y el cubo caerán al vacío por la gravedad, mientras que la esfera se quedará estática, permitiendo que cualquier objeto la atraviese limpiamente (y registrando eventos de código como OnTriggerEnter).
+
+### Situación 9.
+Los tres elementos caerán de manera continua afectados por la gravedad. Dado que la esfera tiene su Collider como Trigger, dejará de colisionar de forma sólida; si sus trayectorias se cruzan con el cubo o el plano durante la caída, se atravesarán entre sí sin rebotar.
 
 ## Hitos y Pruebas de Ejecución
 
