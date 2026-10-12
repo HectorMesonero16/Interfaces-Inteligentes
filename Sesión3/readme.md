@@ -39,7 +39,7 @@ Los tres elementos caerán de manera continua afectados por la gravedad. Dado qu
 ## Hitos y Pruebas de Ejecución
 
 ### Ejercicio 1: Control total con Rigidbody
-- **Hito alcanzado:** Configuración de un personaje controlledo mediante las teclas WASD o flechas direccionales aplicando movimiento físico continuo en `FixedUpdate()`. Se utilizó `Input.GetAxisRaw()` y asignación directa a la velocidad del Rigidbody (`rb.velocity` / `rb.linearVelocity`) para obtener una respuesta inmediata sin inercia, bloqueando la rotación en los ejes X y Z en las restricciones (*Constraints*) para evitar vuelcos.
+- **Hito alcanzado:** Configuración de un personaje controlado mediante las teclas WASD o flechas direccionales aplicando movimiento físico continuo en `FixedUpdate()`. Se utilizó `Input.GetAxisRaw()` y asignación directa a la velocidad del Rigidbody (`rb.velocity` / `rb.linearVelocity`) para obtener una respuesta inmediata sin inercia, bloqueando la rotación en los ejes X y Z en las restricciones (*Constraints*) para evitar vuelcos.
 - **Prueba de ejecución:** (https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/SesionFisicas/gifs/Ejercicio1.gif)
 
 ### Ejercicio 2: Detección de colisiones físicas y cambio de color
