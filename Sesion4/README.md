@@ -33,7 +33,7 @@ Para la realización de esta práctica me he apoyado en herramientas de intelige
 
 **Hito alcanzado:** Creación de una escena con cinco esferas etiquetadas como `Tipo1` (rojas) y `Tipo2` (verdes), un cubo controlado por el jugador y un cilindro. El cubo tiene un Rigidbody cinemático y un Box Collider con *Is Trigger*, por lo que el cilindro detecta el contacto en `OnTriggerEnter()` y envía un mensaje mediante un evento estático (`static event Action<Transform>`). Las esferas se suscriben al evento en `OnEnable()` y, según su etiqueta, registran un callback distinto: las de tipo 1 se dirigen hacia una esfera de tipo 2 fijada de antemano en el Inspector y las de tipo 2 se desplazan hacia el cilindro mediante `Vector3.MoveTowards()`.
 
-**Prueba de ejecución:** (https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Sesión4/gifs/Ejercicio1.gif)
+**Prueba de ejecución:** (https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Sesion4/gifs/video1.gif)
 
 ### Ejercicio 2: Sustitución por humanoides
 
