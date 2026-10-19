@@ -25,7 +25,6 @@ Para la realización de esta práctica me he apoyado en herramientas de intelige
 | `SistemaRecompensas` | GestorJuego | Entrega una recompensa cada 100 puntos. |
 | `UIRecompensas` | Canvas | Muestra el aviso de recompensa, el contador y las medallas. |
 | `CuboFisico` | Cubo | Movimiento físico mediante fuerzas y con gravedad. |
-| `CamaraSeguimiento` | Main Camera | Cámara en tercera persona que sigue al cubo. |
 
 ## Hitos y Pruebas de Ejecución
 
