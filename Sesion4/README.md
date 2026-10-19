@@ -63,7 +63,7 @@ Para la realización de esta práctica me he apoyado en herramientas de intelige
 
 **Hito alcanzado:** Creación de un Canvas en modo *Screen Space - Overlay* con un Canvas Scaler en *Scale With Screen Size* y un texto de TextMeshPro anclado en la esquina superior izquierda. El script de la interfaz se suscribe al evento `OnPuntuacionCambiada` del cubo y actualiza el texto cada vez que cambia la puntuación, de modo que el cubo no necesita conocer la interfaz.
 
-**Prueba de ejecución:** (https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Sesión4/gifs/Ejercicio6.gif)
+**Prueba de ejecución:** (https://github.com/HectorMesonero16/Interfaces-Inteligentes/blob/main/Sesion4/gifs/Ejercicio6.gif)
 
 ### Ejercicio 7: Recompensas cada 100 puntos
 
