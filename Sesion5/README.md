@@ -8,7 +8,7 @@ Este repositorio contiene los scripts, la configuración y el APK desarrollados 
 
 ## Uso de Inteligencia Artificial
 
-Para la realización de esta práctica me he apoyado en herramientas de inteligencia artificial (Claude) como asistencia en la creación de algunos de los scripts y en la resolución de dudas sobre la configuración del proyecto Cardboard en Unity. La configuración del proyecto, el montaje de la escena, la generación del APK y las pruebas las he realizado yo.
+Para la realización de esta práctica me he apoyado en herramientas de inteligencia artificial (Claude) como asistencia en la resolución de dudas sobre la configuración del proyecto Cardboard en Unity. La configuración del proyecto, el montaje de la escena, scripts,la generación del APK y las pruebas las he realizado yo.
 
 ## Scripts
 
