@@ -8,7 +8,7 @@ Este repositorio contiene los scripts y la configuración desarrollados para la 
 
 ## Uso de Inteligencia Artificial
 
-Para la realización de esta práctica me he apoyado en herramientas de inteligencia artificial (Claude) como asistencia en la resolución de dudas sobre la configuración del XR Interaction Toolkit en Unity y sobre la colocación de la interfaz en World Space. La configuración del proyecto, el montaje de la escena, los scripts y las pruebas las he realizado yo.
+Para la realización de esta práctica me he apoyado en herramientas de inteligencia artificial (Claude) como asistencia en la resolución de dudas sobre la configuración del XR Interaction Toolkit en Unity. La configuración del proyecto, el montaje de la escena, los scripts y las pruebas las he realizado yo.
 
 ## Scripts
 
