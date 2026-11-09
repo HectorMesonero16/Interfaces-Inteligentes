@@ -8,7 +8,7 @@ Este repositorio contiene los scripts y la configuración desarrollados para la 
 
 ## Uso de Inteligencia Artificial
 
-Para la realización de esta práctica me he apoyado en herramientas de inteligencia artificial (Claude) para la creación de los scripts, la configuración de Vuforia y el montaje de la escena en Unity. Las pruebas de funcionamiento con la webcam y las imágenes objetivo las he realizado yo.
+Para la realización de esta práctica me he apoyado en herramientas de inteligencia artificial (Claude) para la configuración de Vuforia. Las pruebas de funcionamiento con la webcam, realización de scripts y las imágenes objetivo las he realizado y confirmado yo.
 
 ## Scripts
 
